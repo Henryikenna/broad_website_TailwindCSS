@@ -578,6 +578,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer div ul li a:hover{
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .sr-only{
   position: absolute;
   width: 1px;
@@ -885,6 +893,10 @@ video {
   height: 230px;
 }
 
+.h-\[28px\]{
+  height: 28px;
+}
+
 .h-\[300px\]{
   height: 300px;
 }
@@ -899,10 +911,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[28px\]{
-  height: 28px;
 }
 
 .w-8{
@@ -941,6 +949,10 @@ video {
   width: 250px;
 }
 
+.w-\[28px\]{
+  width: 28px;
+}
+
 .w-\[30px\]{
   width: 30px;
 }
@@ -967,10 +979,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[28px\]{
-  width: 28px;
 }
 
 .flex-1{
@@ -2137,6 +2145,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-\[16px\]{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .px-\[18px\]{
   padding-left: 18px;
   padding-right: 18px;
@@ -2165,11 +2178,6 @@ video {
 .py-\[4px\]{
   padding-top: 4px;
   padding-bottom: 4px;
-}
-
-.px-\[16px\]{
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .pb-11{
@@ -2920,10 +2928,6 @@ video {
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:flex-shrink{
-    flex-shrink: 1;
   }
 
   .md\:justify-between{
