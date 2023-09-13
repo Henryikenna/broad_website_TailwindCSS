@@ -13,4 +13,16 @@
     .footer div ul li a:hover{
         @apply underline underline-offset-2 transition-all duration-200 ease-in-out;
     }
+
+    .navbarsec ul li:hover{
+        @apply text-[#F4B073] cursor-pointer transition-all duration-150 ease-in-out;
+    }
+
+    .navbarsec .navbarsocials li i{
+        @apply text-[20px];
+    }
+
+    .navbarsec .navbarsocials li{
+        @apply text-[15px] items-center;
+    }
 }
