@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <title>BROAD™ Shop</title>
+</head>
+
+<body>
+    <!-- <p id="screenWidth"></p> -->
+    <div class="bg-white z-20 items-center justify-between pr-6 shadow-md fixed w-full flex md:flex lg:hidden">
+        <!-- header -->
+        <a href="../index.html"><img loading="lazy" class="w-[80px] mt-[6px] ml-3 " src="../images/logotxt.png" alt="Logo"></a>
+
+        <div class="relative text-gray-600 hidden md:inline lg:hidden">
+            <input
+                class="border-2 bg-white w-[250px] h-12 pl-11 pr-5 tracking-wide font-normal border-[#F4B073] rounded-full text-[14px] focus:outline-none"
+                type="text" name="search" placeholder="Search">
+            <button type="submit" class="absolute left-0 top-0 mt-[14px] ml-4">
+                <!-- <i class="fas fa-search"></i> -->
+                <img loading="lazy" class="w-[20px]" src="../images/search.svg" alt="">
+            </button>
+        </div>
+
+        <div class=" items-center hidden md:flex lg:hidden">
+            <p
+                class="px-[16px] py-[4px] text-[13px] text-white font-bold rounded-s-3xl rounded-e-3xl bg-[#F4B073] text-center">
+                0</p>
+
+
+            <img loading="lazy" class="w-[28px] h-[28px]" src="../images/cart2.png" alt="">
+        </div>
+
+
+
+        <div class=" items-center flex md:hidden lg:hidden">
+            <img loading="lazy" class="w-[22px] h-[22px]" src="../images/cart2.png" alt="">
+
+
+            <p class="px-[6px] py-[3px] text-[12px] text-white font-semibold rounded-full bg-[#F4B073] text-center">
+                122120</p>
+
+
+
+        </div>
+
+        <button id="open-navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+
+        <div id="navbar"
+            class="bg-black bg-opacity-50 w-full h-full fixed right-0 top-0 transform translate-x-full transition-transform duration-300 ease-in-out">
+            <div class="bg-white h-full w-4/5 right-0 absolute ">
+                <!-- Close Icon Button -->
+                <button id="close-navbar" class="absolute top-6 right-5 p-2 text-black z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+
+                <!-- Navbar content goes here -->
+                <nav class="navbarsec flex flex-col h-full mt-20 mb-0 mx-5">
+                    <ul class="navbaroptions space-y-8 flex-none h-3/5">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">What is Broad?</a></li>
+                    </ul>
+
+                    <ul class="navbarsocials flex flex-col h-1/5 justify-between">
+                        <li><i class="fab fa-facebook"></i> Facebook</li>
+                        <li><i class="fab fa-instagram"></i> Instagram</li>
+                        <li><i class="fab fa-twitter"></i> Twitter</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-white z-20 fixed w-full items-center justify-between pr-6 shadow-md hidden  lg:flex ">
+        <!-- header -->
+        <a href="../index.html"><img loading="lazy" class="w-[120px] mt-[6px] ml-3" src="../images/logo.png" alt="Logo"></a>
+
+
+        <div class="headerlinks flex items-center text-[16px] font-medium space-x-9 ">
+            <a class="" href="../index.html">HOME</a>
+            <a class="" href="#">SHOP</a>
+            <a href="">BEST SELLERS</a>
+            <a href="">WHAT IS BROAD?</a>
+        </div>
+
+        <!-- <div class="group">
+            <input class="group w-[250px] h-12 text-black pr-3 pl-[80px] text-[16px] tracking-wide font-normal border-2 rounded-full border-[#F4B073] outline-none" type="text">
+        <img loading="lazy" class="absolute top-[53px] left-[78.5rem] w-[20px]" src="images/search.svg" alt="">
+        </div> -->
+
+        <div class="relative text-gray-600">
+            <input
+                class="border-2 bg-white w-[250px] h-12 pl-11 pr-5 tracking-wide font-normal border-[#F4B073] rounded-full text-[14px] focus:outline-none"
+                type="text" name="search" placeholder="Search">
+            <button type="submit" class="absolute left-0 top-0 mt-[14px] ml-4">
+                <!-- <i class="fas fa-search"></i> -->
+                <img loading="lazy" class="w-[20px]" src="../images/search.svg" alt="">
+            </button>
+        </div>
+
+        <div class="flex items-center pr-14">
+            <p
+                class="px-[18px] py-[4px] text-[13px] text-white font-bold rounded-s-3xl rounded-e-3xl bg-[#F4B073] text-center">
+                0</p>
+
+
+            <img loading="lazy" class="w-[32px] h-[32px]" src="../images/cart2.png" alt="">
+        </div>
+    </div>
+
+    <div class="relative pt-[86px] block md:hidden lg:hidden">
+        <!-- <input
+            class="group w-[100%] h-12 text-black pl-3 pr-[80px] text-[14px] tracking-wide font-normal border border-[#F4B073] outline-none"
+            placeholder="Search" type="text">
+        <img loading="lazy" class="absolute top-[85.6px] bg-[#F4B073] py-[12.1px] px-5 w-[65px] right-0" src="images/search.svg"
+            alt=""> -->
+
+        <input
+            class="border bg-white w-full h-12 pl-4 pr-[80px] tracking-wide font-normal border-[#F4B073] text-[14px] focus:outline-none"
+            type="text" name="search" placeholder="Search">
+        <button type="submit" class="absolute right-0 mt-[87.5px] top-0 ml-4 bg-[#F4B073] py-[12.17px] px-5">
+            <!-- <i class="fas fa-search"></i> -->
+            <img loading="lazy" class="w-[22px] " src="../images/search.svg" alt="">
+        </button>
+    </div>
+
+
+
+
+    <div class="">
+
+    </div>
+
+
+
+
+    <script>
+        // Function to update screen width
+        function updateScreenWidth() {
+            const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            document.getElementById("screenWidth").textContent = `Screen Width: ${screenWidth}px`;
+        }
+
+        // Initial update
+        updateScreenWidth();
+
+        // Add a resize event listener to update the screen width when the window is resized
+        window.addEventListener("resize", updateScreenWidth);
+
+    </script>
+
+    <script>
+        // Get a reference to the "back to top" button
+        const backToTopBtn = document.getElementById('backToTopBtn');
+
+        // Function to toggle the button's visibility based on scroll position
+        function toggleBackToTopButton() {
+            if (window.scrollY > 100) { // Adjust the scroll position as needed
+                backToTopBtn.classList.remove('hidden');
+            } else {
+                backToTopBtn.classList.add('hidden');
+            }
+        }
+
+        // Attach the toggleBackToTopButton function to the scroll event
+        window.addEventListener('scroll', toggleBackToTopButton);
+
+        // Function to scroll back to the top when the button is clicked
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional: Add smooth scrolling behavior
+            });
+        });
+
+    </script>
+
+
+    <script>
+        const openNavbarBtn = document.getElementById('open-navbar');
+        const closeNavbarBtn = document.getElementById('close-navbar');
+        const navbar = document.getElementById('navbar');
+
+        openNavbarBtn.addEventListener('click', () => {
+            navbar.classList.remove('translate-x-full');
+        });
+
+        closeNavbarBtn.addEventListener('click', () => {
+            navbar.classList.add('translate-x-full');
+        });
+    </script>
+</body>
+
+</html>

@@ -6,6 +6,10 @@
 
 
 @layer components{
+    *{
+        @apply font-inter;
+    }
+
     .headerlinks a:hover{
         @apply underline underline-offset-4 transition-all duration-200 ease-in-out;
     }
